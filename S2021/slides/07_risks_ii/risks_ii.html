@@ -192,6 +192,7 @@ Draw a fault tree for the lane assist system with the top event as “Vehicle fa
 * __Goal__: Minimize the impact of failures
 * __Detection__
   * Monitoring
+  * Redundancy
 * __Response__
   * Graceful degradation (fail-safe)
   * Redundancy (fail over)
@@ -245,23 +246,26 @@ _Runtime-Safety-Guided Policy Repair_, Intl. Conference on Runtime Verification 
   * If Lidar fails, switch to a lower-quality detector; be more
   conservative
   * __But what about other types of ML failures? (e.g., misclassification)__
-</script></section><section data-markdown><script type="text/template">## Response: Redundancy (Failover)
+</script></section><section data-markdown><script type="text/template">## Detection & Response: Redundancy 
 
 ![](redundancy.jpg)
+<!-- .element: class="stretch" -->
 
-* __Goal__: When a component fails, continue to provide the same
+* __Detection__: Compare output from redundant components 
+* __Reseponse__: When a component fails, continue to provide the same
   functionality 
 * __Hot Standby__: Standby watches & takes over when primary fails
 * __Voting__: Select the majority decision
 * Caution: Do components fail independently?
   * Reasonable assumption for hardware/mechanical failures
   * __Q. What about software?__
-</script></section><section data-markdown><script type="text/template">## Response: Redundancy (Failover)
+</script></section><section data-markdown><script type="text/template">## Detection & Response: Redundancy
 
 ![](redundancy.jpg)
+<!-- .element: class="stretch" -->
 
-* __Goal__: When a component fails, continue to provide the same
-  functionality 
+* __Detection__: Compare output from redundant components 
+* __Reseponse__: When a component fails, continue to provide the same
 * __Hot Standby__: Standby watches & takes over when primary fails
 * __Voting__: Select the majority decision
 * Caution: Do components fail independently?
@@ -306,6 +310,7 @@ _Runtime-Safety-Guided Policy Repair_, Intl. Conference on Runtime Verification 
 </script></section><section data-markdown><script type="text/template">## Poor Decoupling: USS Yorktown (1997)
 
 ![](yorktown.png)
+<!-- .element: class="stretch" -->
 
 * Invalid data entered into DB; divide-by-zero crashes entire network
 * Required rebooting the whole system; ship dead in water for 3 hours 
@@ -313,10 +318,14 @@ _Runtime-Safety-Guided Policy Repair_, Intl. Conference on Runtime Verification 
 </script></section><section data-markdown><script type="text/template">## Poor Decoupling: Automotive Security
 
 ![](invehicle.png)
+<!-- .element: class="stretch" -->
 
 * Main components connected through a common CAN bus
   * Broadcast; no access control (anyone can read/write)
-* Can control brake/engine by playing a malicious MP3 (Stefan Savage, UCSD)
+* Can control brake/engine by playing a malicious MP3
+
+<!---references--->
+_Experimental Security Analysis of a Modern Automobile_, Koscher et al., (2010)
 </script></section><section data-markdown><script type="text/template">## Containment: Decoupling & Isolation
 
 * Goal: Faults in a low-critical (LC) components should not impact
