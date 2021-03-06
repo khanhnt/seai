@@ -2,7 +2,7 @@
   "_args": [
     [
       "github:ckaestne/reveal.js-plugins#master",
-      "/home/runner/work/seai/seai/talks"
+      "/home/runner/work/seai/seai"
     ]
   ],
   "_development": true,
@@ -25,7 +25,7 @@
   ],
   "_resolved": "github:ckaestne/reveal.js-plugins#7d2780b3c13f2f264cc28a3a716522ce5a494398",
   "_spec": "github:ckaestne/reveal.js-plugins#master",
-  "_where": "/home/runner/work/seai/seai/talks",
+  "_where": "/home/runner/work/seai/seai",
   "author": {
     "name": "Asvin Goel"
   },
