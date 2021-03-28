@@ -51,10 +51,11 @@ Interests:
 > Building, operating, and maintaining software systems with machine-learned components
 
 > with interdisciplinary collaborative teams of 
-**data scientists** and **software engineers** 
+**data scientists**, **software engineers**, **operators**, ... 
 </script></section><section data-markdown><script type="text/template">
 
-## SE for ML-Enabled Systems != coding ML frameworks
+## SE for ML-Enabled Systems != 
+## Developing ML frameworks
 
 ![Parameter server architecture](parameterserver.png)
 <!-- .element: class="stretch" -->
@@ -70,7 +71,7 @@ Interests:
 </script></section><section data-markdown><script type="text/template">## System = ML + Non-ML Components
 
 ![Transcription service architecture](transcriptionarchitecture.png)
-<!-- .element: class="stretch" -->
+<!-- .element: class="stretch plain" -->
 
 
 </script></section></section><section ><section data-markdown><script type="text/template"># System Design Matters
@@ -82,9 +83,15 @@ Using notebooks, static datasets, evaluating accuracy
 
 ![Notebook](notebook.png)
 
+</script></section><section data-markdown><script type="text/template">## SE for ML-Enabled Systems
+
+![Screenshot of Temi](temi.png)
+[temi.com](https://www.temi.com/)
+
 </script></section><section data-markdown><script type="text/template">## The Flywheel
 
 ![Flywheel](flywheel.png)
+<!-- .element: class="stretch plain" -->
 </script></section><section data-markdown><script type="text/template">## Telemetry Design
 
 ![](temi.png)
@@ -93,16 +100,23 @@ Using notebooks, static datasets, evaluating accuracy
 </script></section><section data-markdown><script type="text/template">## ML is a Component in a System
 
 ![Transcription service architecture](transcriptionarchitecture.png)
-<!-- .element: class="stretch" -->
+<!-- .element: class="stretch plain" -->
 
 </script></section><section data-markdown><script type="text/template">## System Design to Support ML
 
 ![Transcription service architecture](transcriptionarchitecture2.png)
-<!-- .element: class="stretch" -->
+<!-- .element: class="stretch plain" -->
+
+
+
+
+
 
 
 
 </script></section></section><section ><section data-markdown><script type="text/template"># Everything is a Tradeoff
+</script></section><section data-markdown><script type="text/template">
+![It depends](it-depends.png)
 
 </script></section><section data-markdown><script type="text/template">## Many qualities of interest
 
@@ -194,14 +208,6 @@ Bernardi, Lucas, Themistoklis Mavridis, and Pablo Estevez. "150 successful machi
 
 
 ![Deployment architecture choices](artransl.png)
-
-</script></section><section data-markdown><script type="text/template">## Tradeoff: Model improvement vs System safeguards
-
-<!-- colstart -->
-![Toaster](toaster.jpg)
-<!-- col -->
-![Thermal fuse](thermalfuse.png)
-<!-- colend -->
 </script></section><section data-markdown><script type="text/template">
 ![It depends](it-depends.png)
 
@@ -209,6 +215,9 @@ Bernardi, Lucas, Themistoklis Mavridis, and Pablo Estevez. "150 successful machi
 
 </script></section></section><section ><section data-markdown><script type="text/template"># Think like a 
 # software architect
+</script></section><section data-markdown><script type="text/template">![Waterfall](waterfall.png)
+<!-- .element: class="stretch plain" -->
+
 </script></section><section data-markdown><script type="text/template">
 ## Excursion: Twitter
 
@@ -220,7 +229,7 @@ Raffi. [New Tweets per second record, and how!](https://blog.twitter.com/enginee
 ## Twitter - Caching Architecture
 
 ![twitter](twitter-caching.png)
-<!-- .element: class="stretch" -->
+<!-- .element: class="stretch plain" -->
 
 <aside class="notes"><ul>
 <li>Running one of the world’s largest Ruby on Rails installations</li>
@@ -326,6 +335,7 @@ Raffi. [New Tweets per second record, and how!](https://blog.twitter.com/enginee
 CMU 17-445 Class Project
 
 ![Simulator](sim.png)
+<!-- .element: class="plain" -->
 
 
 </script></section><section data-markdown><script type="text/template">## Data Science Practices by Software Engineers
@@ -349,7 +359,7 @@ Yang, Qian, Jina Suh, Nan-Chen Chen, and Gonzalo Ramos. "[Grounding interactive 
 
 </script></section><section data-markdown><script type="text/template">
 ![Roles Venn Diagram](roles_venn.svg)
-<!-- .element: class="stretch" -->
+<!-- .element: class="stretch plain" -->
 
 By Steven Geringer, via Ryan Orban. [Bridging the Gap Between Data Science & Engineer: Building High-Performance Teams](https://www.slideshare.net/ryanorban/bridging-the-gap-between-data-science-engineer-building-highperformance-teams/3-Software_Engineer_Data_Engineer_Data). 2016
 
@@ -359,13 +369,14 @@ By Steven Geringer, via Ryan Orban. [Bridging the Gap Between Data Science & Eng
 *Broad-range generalist + Deep expertise*
 
 ![T-Shaped](tshaped.png)
+<!-- .element: class="stretch plain" -->
 
-<!-- reference -->
 Figure: Jason Yip. [Why T-shaped people?](https://medium.com/@jchyip/why-t-shaped-people-e8706198e437). 2018
 
 </script></section><section data-markdown><script type="text/template">## DevOps as Inspiration
 
 ![DevOps](devops.png)
+<!-- .element: class="stretch plain" -->
 
 Distinct roles and expertise, but joint responsibilities, joint tooling
 
@@ -380,39 +391,53 @@ Foster system thinking
 </script></section><section data-markdown><script type="text/template">## Process models
 
 ![Data science pipeline](pipeline.png)
+<!-- .element: class="stretch plain" -->
 
 </script></section><section data-markdown><script type="text/template">## Process models
 
 ![CRISP-DM](crispdm.png)
-<!-- .element: class="stretch" -->
+<!-- .element: class="stretch plain" -->
 
 (CRISP-DM)
 </script></section><section data-markdown><script type="text/template">## Process models
 
 <!-- colstart -->
 ![Waterfall](waterfall.png)
+<!-- .element: class="plain" -->
 <!-- col -->
 ![Scrum](scrum.svg)
-<!-- colend -->
+<!-- .element: class="plain" -->
+ <!-- colend -->
 
 </script></section><section data-markdown><script type="text/template">## Integrated ML/Non-ML Process
 ![Combined process](combinedprocess4.png)
+<!-- .element: class="plain" -->
 </script></section><section data-markdown><script type="text/template">## Development Trajectories
 
 ![Combined process](combinedprocess4.png)
-<!-- .element: class="stretch" -->
+<!-- .element: class="stretch plain" -->
 
 
 Upfront design? ML first? Non-ML system first? Incremental refinement?
 </script></section></section><section  data-markdown><script type="text/template"># Summary
 
 * Adopt a whole-system perspective on ML in production
+* Design for quality, don't patch it in later
 * Understand qualities and tradeoffs, including performance
 * Consider implications of qualities on non-ML components
-* Build interdisciplinary teams, include architects
+* Build interdisciplinary teams, integrative process
 
+<!-- references -->
 
+Interested in talking about your experiences in interdisciplinary ML teams? Contact us.
 
+</script></section><section  data-markdown><script type="text/template">## Tradeoff: Model improvement vs System safeguards
+
+<!-- colstart -->
+![Toaster](toaster.jpg)
+<!-- col -->
+![Thermal fuse](thermalfuse.png)
+<!-- colend -->
 
 
 
