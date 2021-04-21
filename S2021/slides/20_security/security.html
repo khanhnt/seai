@@ -142,7 +142,7 @@ day of the application deadline.
 * Example: Application Front End
   * Spoofing: ?
   * Tampering: ? 
-  * Repudiation: ?
+  * Information disclosure: ?
   * Denial of service: ?
 </script></section><section data-markdown><script type="text/template">## STRIDE: College Admission
 
@@ -273,7 +273,9 @@ Koh, Steinhardt, and Liang (2018).
 ![](evasion-attack.png)
 
 * Add noise to an existing sample & cause misclassification
+<!-- .element: class="fragment" -->
 * Attack at inference time
+<!-- .element: class="fragment" -->
   * Typically assumes knowledge of the model (algorithm, parameters)
   * Recently, shown to be possible even when the attacker only has access to
     model output ("blackbox" attack)
@@ -323,6 +325,9 @@ From Goodfellow et al (2018). [Making machine learning robust against adversaria
 
 _Reliable Smart Road Signs_, Sayin et al. (2019).
 </script></section><section data-markdown><script type="text/template">## Generating Adversarial Examples
+
+* Q. How do we generate adversarial examples?
+  </script></section><section data-markdown><script type="text/template">## Generating Adversarial Examples
 
 * See [counterfactual explanations](https://ckaestne.github.io/seai/F2020/slides/17_explainability/explainability.html#/7/1)
 * Find similar input with different prediction
