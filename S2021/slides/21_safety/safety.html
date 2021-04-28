@@ -525,8 +525,6 @@ software), Common Criteria (security)
     FDA-certified products recalled due to safety incidents)
 * Good processes are important, but not sufficient; provides only indirect evidence for system safety
 <!-- .element: class="fragment" -->
-
-
 </script></section><section data-markdown><script type="text/template">## Safety Cases
 
 ![](safety-case.png)
@@ -537,15 +535,28 @@ requirement, along with supporting evidence
 * Structure:
   * Argument: A top-level claim decomposed into multiple sub-claims
   * Evidence: Testing, software analysis, formal verification,
-  inspection, expert opinions, design mechanisms
+  inspection, expert opinions, design mechanisms...
 </script></section><section data-markdown><script type="text/template">## Safety Cases: Example
 
 ![](safety-case-example.png)
+
+* Questions to think about:
+  * Do sub-claims imply the parent claim?
+  * Am I missing any sub-claims?
+  * Is the evidence strong enough to discharge a leaf claim?
 </script></section><section data-markdown><script type="text/template">## Safety Cases: Example
 
 ![](uber-safety-case.png)
 
 [Uber Safety Case](https://uberatgresources.com/safetycase/gsn)
+
+</script></section><section data-markdown><script type="text/template">## Safety Cases: Breakout
+
+![](movie-recommendation.png)
+
+Build a safety case to argue that your movie recommendation system
+provides at least 80% availability. Include evidence to support your
+argument. 
 </script></section><section data-markdown><script type="text/template">## Safety Cases: Benefits & Limitations
 
 * Provides an explicit structure to the safety argument
@@ -566,6 +577,15 @@ requirement, along with supporting evidence
   * System evolution
   <!-- .element: class="fragment" -->
 	* If system changes, must reproduce the case & evidence
+
+
+
+
+
+
+
+
+
 </script></section></section><section ><section data-markdown><script type="text/template"># Designing for Safety
 </script></section><section data-markdown><script type="text/template">## Review: Elements of Safe Design
 
