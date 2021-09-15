@@ -5,45 +5,47 @@ semester: Summer 2020
 footer: "17-445 Software Engineering for AI-Enabled Systems, Christian Kaestner"
 license: Creative Commons Attribution 4.0 International (CC BY 4.0)
 ---  
+Vietnamese by: KhanhNT
+---  
 
-# Introduction and Motivation
+# Giới thiệu chung
 
-Christian Kaestner
+Nguyễn Trọng Khánh
 
 
 ---
 
 # Lecture Logistics during a Pandemic
 
-If you can hear me, open the participant panel in Zoom and check "yes"
+# If you can hear me, open the participant panel in Zoom and check "yes"
 
-![Zoom interface](zoomvote.png)
+# ![Zoom interface](zoomvote.png)
 
 ----
 
 ## Simulating in-class experience
 
-> Discussions and interactions are important. We'll have regular in-class discussions and exercises
+#> Discussions and interactions are important. We'll have regular in-class discussions and exercises
 
-* Use chat or "raise hand" feature
-* Always keep camera on, muted by default
-* Set preferred name in Zoom
-* Attend lecture and recitation live, recordings only as backup
-* I may call on you
-* 
-* Suggestion: Have chat and participant list open, maybe separate window for gallery view, second monitor highly recommended
-* **Contact me for accommodations!**
+#* Use chat or "raise hand" feature
+#* Always keep camera on, muted by default
+#* Set preferred name in Zoom
+#* Attend lecture and recitation live, recordings only as backup
+#* I may call on you
+#* 
+#* Suggestion: Have chat and participant list open, maybe separate window for gallery view, second monitor highly recommended
+#* **Contact me for accommodations!**
 
 
 
 ---
 
-## Learning Goals
+## Mục tiêu môn học
 
-* Understand how AI components are parts of larger systems
-* Illustrate the challenges in engineering an AI-enabled system beyond accuracy
-* Explain the role of specifications and their lack in machine learning and the relationship to deductive and inductive reasoning
-* Summarize the respective goals and challenges of software engineers vs data scientists
+* Hiểu cách các thành phần AI được cấu thành trong hệ thống lớn hơn
+* Khó khăn trong xây dựng hệ thống thông minh, bên cạnh thách thức về độ chính xác
+* Giải thích vai trò, nhược điểm của các thông số kỹ thuật trong học máy
+* Tóm tắt các mục tiêu và thách thức đối với kỹ sư phần mềm và nhà khoa học dữ liệu
 
 ---
 
