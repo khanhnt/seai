@@ -12,32 +12,6 @@ Vietnamese by: KhanhNT
 
 Nguyễn Trọng Khánh
 
-
----
-
-# Lecture Logistics during a Pandemic
-
-# If you can hear me, open the participant panel in Zoom and check "yes"
-
-# ![Zoom interface](zoomvote.png)
-
-----
-
-## Simulating in-class experience
-
-#> Discussions and interactions are important. We'll have regular in-class discussions and exercises
-
-#* Use chat or "raise hand" feature
-#* Always keep camera on, muted by default
-#* Set preferred name in Zoom
-#* Attend lecture and recitation live, recordings only as backup
-#* I may call on you
-#* 
-#* Suggestion: Have chat and participant list open, maybe separate window for gallery view, second monitor highly recommended
-#* **Contact me for accommodations!**
-
-
-
 ---
 
 ## Mục tiêu môn học
@@ -46,38 +20,6 @@ Nguyễn Trọng Khánh
 * Khó khăn trong xây dựng hệ thống thông minh, bên cạnh thách thức về độ chính xác
 * Giải thích vai trò, nhược điểm của các thông số kỹ thuật trong học máy
 * Tóm tắt các mục tiêu và thách thức đối với kỹ sư phần mềm và nhà khoa học dữ liệu
-
----
-
-# Disclaimer: Experimental Class
-
-Second offering, but significant redesign
-
----
-
-<svg version="1.1" viewBox="0.0 0.0 800 400" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-        <style>
-    text { font: 60px sans-serif; }
-        </style>
-        <circle r="180" cx="250", cy="200" fill="#b9ff00" fill-opacity="0.514" />
-        <circle r="180" cx="550", cy="200" fill="#ff5500" fill-opacity="0.514" />
-        <text x=230 y=160 dominant-baseline="middle" text-anchor="middle">Data</text>
-        <text x=230 y=240 dominant-baseline="middle" text-anchor="middle">Scientists</text>
-        <text x=570 y=160 dominant-baseline="middle" text-anchor="middle">Software</text>
-        <text x=570 y=240 dominant-baseline="middle" text-anchor="middle">Engineers</text>
-</svg>
-
----
-
-# Agenda
-
-```mermaid
-graph LR;
-    Preliminaries --> C["Case Study"];
-    C --> Syllabus;
-    Syllabus --> Introductions;
-    Introductions --> Specifications;
-```
 
 ---
 
